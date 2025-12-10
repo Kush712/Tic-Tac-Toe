@@ -1,67 +1,35 @@
 🎮 Tic Tac Toe Deluxe — Flask + React (3D Neon UI)
-A modern, full-stack Tic Tac Toe game built using:
-
-🐍 Flask (Python) — Backend API
-
-⚛️ React.js — Frontend UI
-
-🎨 Neon 3D / Glassmorphism design
-
-✨ Smooth animations, glowing X/O, win highlights
-
-This is not a basic Tic Tac Toe — it's a premium visually enhanced version with a clean API structure and modern UI design.
-
-🚀 Features
+A modern, full-stack Tic Tac Toe experience with a premium neon 3D / glassmorphism look.
+Not just a grid with X and O — this is a polished, animated, API-driven game.
+🧩 Tech Stack
+🐍 Flask (Python) — Lightweight backend API
+⚛️ React.js — Interactive frontend UI
+🎨 Neon 3D + Glassmorphism — Modern, glowing design
+🚀 Core Features
 🎯 Gameplay
 Real-time game state updates
-
-Player switching (X → O)
-
-Draw detection
-
+Automatic player switch (X → O → X → …)
 Win detection with highlighted winning row
-
-Animated glowing X and O
-
-Smooth 3D hover effects
-
-Restart game button
-
+Draw detection when no moves left
+Animated, glowing X and O
+Smooth 3D hover effects on tiles
+One-click Restart Game button
 🖥️ Frontend (React)
-Beautiful neon 3D UI
-
-Glassmorphism layout
-
-Animated cells + glowing winner tiles
-
-Responsive design
-
-Fetches game state from Flask backend
-
-Clean structure for future upgrades (AI bot, multiplayer, etc.)
-
-🐍 Backend (Flask)
-REST API with:
-
-GET /api/game — Fetch current game state
-
-POST /api/move — Make a move
-
-POST /api/reset — Restart game
-
+Sleek neon 3D board with soft glow
+Glassmorphism layout for the main container
+Animated cells with subtle scale and glow on hover
+Winning tiles pulse with a golden glow
+Responsive design for desktop & mobile
+Clean component structure, ready for:
+🤖 AI bot player
+🌐 Online multiplayer
+🧠 Difficulty levels
+🐍 Backend (Flask API)
+Fully RESTful game backend:
+GET /api/game — Get current game state
+POST /api/move — Make a move (row, col, current player)
+POST /api/reset — Reset the board
+Includes:
 Winner detection logic
-
 Draw logic
-
-CORS enabled for frontend
-
-📸 UI Preview (Description)
-A glowing 3D game board with soft neon shadows
-
-Animated X (red glow) and O (green glow)
-
-Winning line pulses with a golden highlight
-
-Stylish restart button
-
-Blurred glass container floating on a gradient background
+CORS enabled for React frontend
